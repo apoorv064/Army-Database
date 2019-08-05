@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{734D5077-CD3C-46A0-A57D-75A9725FDF5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Army_Database_2._0</RootNamespace>
+    <AssemblyName>Army Database 2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\LENOVO\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9924F4D69C2690B3FA74FC3E2C9F4B1D79119ADF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Army Database 2.0_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlphaCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaCode.Designer.cs">
+      <DependentUpon>AlphaCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ammo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ammo.Designer.cs">
+      <DependentUpon>Ammo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ammunitionDatabaseDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ammunitionDatabaseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Artillery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artillery.Designer.cs">
+      <DependentUpon>Artillery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="redir1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="redir1.Designer.cs">
+      <DependentUpon>redir1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSystem.Designer.cs">
+      <DependentUpon>UpdateSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weapon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weapon.Designer.cs">
+      <DependentUpon>Weapon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlphaCode.resx">
+      <DependentUpon>AlphaCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ammo.resx">
+      <DependentUpon>Ammo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artillery.resx">
+      <DependentUpon>Artillery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="redir1.resx">
+      <DependentUpon>redir1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSystem.resx">
+      <DependentUpon>UpdateSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weapon.resx">
+      <DependentUpon>Weapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ammunitionDatabaseDataSet.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet.xss">
+      <DependentUpon>ammunitionDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet1.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet1.xss">
+      <DependentUpon>ammunitionDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet2.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet2.xss">
+      <DependentUpon>ammunitionDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet3.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet3.xss">
+      <DependentUpon>ammunitionDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet4.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet4.xss">
+      <DependentUpon>ammunitionDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet5.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet5.xss">
+      <DependentUpon>ammunitionDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet6.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet6.xss">
+      <DependentUpon>ammunitionDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet7.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet7.xss">
+      <DependentUpon>ammunitionDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet8.xsc">
+      <DependentUpon>ammunitionDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ammunitionDatabaseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ammunitionDatabaseDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ammunitionDatabaseDataSet8.xss">
+      <DependentUpon>ammunitionDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Army Database 2.0_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ammunitionDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ammunitionDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ammunitionDatabase.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

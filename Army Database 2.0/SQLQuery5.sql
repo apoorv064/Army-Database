@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(9.00 AS Decimal(5, 2)), N'twentytwo', CAST(19.50 AS Decimal(5, 2)), N'pistol', 384)
+INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(22.00 AS Decimal(5, 2)), N'remington', CAST(21.89 AS Decimal(5, 2)), N'revolver', 500)
+INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(35.00 AS Decimal(5, 2)), N'winchestor', CAST(29.30 AS Decimal(5, 2)), N'rifle', 1710)
+INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(49.00 AS Decimal(5, 2)), N'NATO', CAST(36.21 AS Decimal(5, 2)), N'sniper', 2000)
+INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(50.00 AS Decimal(5, 2)), N'browning', CAST(31.09 AS Decimal(5, 2)), N'machine gun', 1578)
+INSERT INTO [dbo].[Ammo] ([Ammo_caliber], [abbv], [length], [weapon_type], [muzzle_vel]) VALUES (CAST(690.00 AS Decimal(5, 2)), N'12gauge', CAST(40.00 AS Decimal(5, 2)), N'shotgun', 196)

@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'L16', N'mortar', N'20011', N'australia')
+INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'M1 37MM', N'AA', N'20014', N'USA')
+INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'OFB E1', N'mortar', N'20010', N'india')
+INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'ordinanance', N'howitzer', N'20012', N'austrlia')
+INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'TYPE 11', N'infantry gun', N'20015', N'japan')
+INSERT INTO [dbo].[Artillery] ([Artillery_name], [Artillery_type], [Batch_id], [Country]) VALUES (N'TYPE 99', N'AA', N'20014', N'japan')

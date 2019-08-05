@@ -1,0 +1,54 @@
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe.config
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.pdb
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Form1.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Login.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.exe
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.pdb
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.HomePage.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Signup.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.redir1.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\ammunitionDatabase.mdf
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\ammunitionDatabase_log.ldf
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Dashboard.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Menu.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Weapon.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Ammo.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Artillery.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.AlphaCode.resources
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe.manifest
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.application
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.exe.manifest
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.application
+C:\Users\LENOVO\source\repos\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.UpdateSystem.resources
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\ammunitionDatabase.mdf
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\ammunitionDatabase_log.ldf
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe.config
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe.manifest
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.application
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.exe
+E:\Army Database 2.0\Army Database 2.0\bin\Debug\Army Database 2.0.pdb
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csprojAssemblyReference.cache
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.AlphaCode.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Ammo.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Artillery.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Dashboard.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.HomePage.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Menu.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.redir1.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Signup.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.UpdateSystem.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\WindowsFormsApplication1.Weapon.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Form1.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Login.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army_Database_2._0.Properties.Resources.resources
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csproj.GenerateResource.cache
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.csproj.CoreCompileInputs.cache
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.exe.manifest
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.application
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.exe
+E:\Army Database 2.0\Army Database 2.0\obj\Debug\Army Database 2.0.pdb
